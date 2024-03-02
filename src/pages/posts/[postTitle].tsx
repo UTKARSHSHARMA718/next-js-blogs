@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation'
 
 const postTitle = () => {
-    const params = useParams();
-    console.log({ params })
 
     return (
         <div className='bg-gray-500 h-full p-6'>

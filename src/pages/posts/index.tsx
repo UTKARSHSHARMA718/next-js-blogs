@@ -4,7 +4,7 @@ import { PostTypes } from '@/types/Post.types'
 import { useRouter } from 'next/navigation';
 import React from 'react'
 
-const index = () => {
+const AllPosts = () => {
 
   const router = useRouter();
 
@@ -47,4 +47,4 @@ const index = () => {
   )
 }
 
-export default index
+export default AllPosts
